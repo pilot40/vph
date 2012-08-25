@@ -1,0 +1,12 @@
+    #Расчёт веса
+    @pyqtSignature("")
+    def ves(self):
+        Gpust = 11245
+        Gsl = 80
+        Gfull = int(self.ui.lineEditG_2.Text)
+        vEk = 80
+        vPr = 75
+        vTeh = 75
+        vPass = 75
+        Gvzl = Gpust+Gsl+Gfull+(self.ui.spinEk.value()*vEk)+(self.ui.spinPr.value()*vPr)+(self.ui.spinTeh.value()*vTeh)+(self.ui.spinZagr.value()*vPass)-65
+        self.ui.lineVzl.setText(str(Gvzl)#Вывод общего веса
