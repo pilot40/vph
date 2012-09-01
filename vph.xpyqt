@@ -21,10 +21,10 @@
         <file>mainwindow.ui</file>
     </variable>
     <variable name="PYTHON_FILES">
-        <file>main.py</file>
+        <file>main.pyw</file>
         <file>mainwindow.py</file>
     </variable>
     <variable name="XUP.MAIN_FILE">
-        <value>main.py</value>
+        <value>main.pyw</value>
     </variable>
 </project>
