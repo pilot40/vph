@@ -66,7 +66,7 @@ class MainWindow ( QMainWindow ):
         Mm = int((Tp- Hh)*60)
         n = QTime()
         n.setHMS(Hh,Mm,00,00)        
-        Gf = int(((((float(S)+float(Salt))/450)*Q)+600)*1.03)
+        Gf = int((((((float(S)+float(Salt))/W)*Q)*1.03)+600))
         self.ui.lineEditG.setText(str(Gf))#Вывод общего топлива
         self.ui.lineEditG_2.setText(str(Gf))#Вывод общего топлива для загрузки
         self.ui.timeEdit.setTime(n)#Вывод времени полёта
